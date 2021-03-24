@@ -6,3 +6,8 @@ export interface IBlog {
     _created: Date;
     name: string;
 }
+
+export interface ITag {
+    id: number,
+    name: string
+}
